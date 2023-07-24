@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="foto-sushi-6anudmpILw4-unsplash.jpg" />
+    <None Remove="i1.jpg" />
+    <None Remove="i2.jpg" />
+    <None Remove="i3.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HandyControls" Version="3.4.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="foto-sushi-6anudmpILw4-unsplash.jpg" />
+    <Resource Include="i1.jpg" />
+    <Resource Include="i2.jpg" />
+    <Resource Include="i3.jpg" />
+  </ItemGroup>
+
+</Project>
